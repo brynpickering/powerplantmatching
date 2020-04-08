@@ -23,7 +23,7 @@ setup(
     packages=['powerplantmatching'],
     include_package_data=True,
     install_requires=['numpy','scipy','pandas>=0.23.0','networkx>=1.10',
-                      'pycountry', 'xlrd', 'seaborn', 'pyyaml >=5.1.0',
+                      'pycountry>=19.8.18', 'xlrd', 'seaborn', 'pyyaml >=5.1.0',
                       'requests', 'matplotlib', 'geopy', 'xlrd', 'entsoe-py'],
     classifiers=[
         'Programming Language :: Python :: 3',

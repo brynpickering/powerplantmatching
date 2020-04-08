@@ -4,19 +4,19 @@ channels:
   - defaults
 dependencies:
   - cartopy
+  - entsoe-py
   - geopy
   - ipython
   - matplotlib
-  - networkx
+  - networkx>=1.10
   - numpy
-  - pandas
+  - pandas>=0.23.0
+  - pycountry>=19.8.18
   - python=3
-  - pyyaml
+  - pyyaml>=5.1.0
+  - quilt
   - requests
   - scipy
   - seaborn
   - six
   - xlrd
-  - pip:
-    - pycountry
-    - quilt
